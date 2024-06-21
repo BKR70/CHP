@@ -1,0 +1,19 @@
+Team name : BBA_jacK_poT
+
+Member 1:
+Name : Bilas Kumar Roy
+SID  : 204027
+Contact number : 01705945433
+Email : bilas.duet.204027@gmail.com
+
+Member 2:
+Name : Bhaskor Roy
+SID  : 204028
+Contact number : 01765949686
+Email : bhaskorcse520@gmail.com
+
+Member 3:
+Name : Krishna chandro roy
+SID  : 204043
+Contact number : 01751002144
+Email : arjunroy40202@gmail.com
