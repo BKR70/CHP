@@ -5,6 +5,10 @@
 				else { ?>
 						<script type="text/javascript">
 							alert("Plz first login as Employer!");
+							<?php 
+								session_unset();
+								session_destroy();
+							?>
 							window.location.href = "../login.html";
 						</script>
 				<?php }

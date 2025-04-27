@@ -14,6 +14,7 @@
 	$firstName = $_POST['fname'];
 	$lastName = $_POST['lname'];
 	$EmailId = $_POST['email'];
+	$Location = $_POST['location'];
 	$Category = $_POST['category'];
 	$PasswordId = $_POST['password'];
 	$RepasswordId = $_POST['repassword'];
@@ -40,8 +41,8 @@
 		<?php
 	}
 	if($ck == 1) {
-		$sql = "INSERT INTO store (firstName, lastName, email, category, password, confirmPassword, userType)
-		VALUES ('$firstName', '$lastName', '$EmailId', '$Category', '$PasswordId','$RepasswordId', 'Employee' )";
+		$sql = "INSERT INTO store (firstName, lastName, email, category, password, confirmPassword, userType, location)
+		VALUES ('$firstName', '$lastName', '$EmailId', '$Category', '$PasswordId','$RepasswordId', 'Employee', '$Location')";
 
 		if ($conn->query($sql) === TRUE) {
 			$_SESSION['Categore'] = $Category;

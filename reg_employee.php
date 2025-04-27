@@ -6,7 +6,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body style="background-color:#4c9999;">
     <div class="nav">
@@ -58,6 +58,10 @@
             <input type="email" placeholder="Enter Your Email Id" id="email" name="email" required><br>
           </div>
 		  <div class="input-group">
+            <label><strong>Location:</strong></label><br>
+            <input type="text" placeholder="Enter Your Location" id="location" name="location" required><br>
+          </div>
+		  <div class="input-group">
 				<label for="category"><strong>Expert As:<strong></label><br>
 				<select name="category" id="category" style="width:328px; height:34px;">
 				  <option value="sde">Software Development </option>
@@ -84,8 +88,8 @@
        
       </form>
 
-      </div>
-	  	<footer>
+    </div>
+	<footer>
 		<div class="row primary">
 		  <div class="column about">
 			<h3>About Career Hub Platform</h3>

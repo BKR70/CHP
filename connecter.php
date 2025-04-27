@@ -13,6 +13,7 @@
 	$firstName = $_POST['fname'];
 	$lastName = $_POST['lname'];
 	$EmailId = $_POST['email'];
+	$Location = $_POST['location'];
 	$PasswordId = $_POST['password'];
 	$RepasswordId = $_POST['repassword'];
 	$query = mysqli_query($conn, "select email from store where userType = 'Employer'");
@@ -38,8 +39,8 @@
 		<?php
 	}
 	if($ck == 1) {
-		$sql = "INSERT INTO store (firstName, lastName, email, password, confirmPassword, userType)
-		VALUES ('$firstName', '$lastName', '$EmailId', '$PasswordId','$RepasswordId', 'Employer' )";
+		$sql = "INSERT INTO store (firstName, location, email, password, confirmPassword, userType)
+		VALUES ('$firstName', '$Location', '$EmailId', '$PasswordId','$RepasswordId', 'Employer' )";
 
 		if ($conn->query($sql) === TRUE) {
 			?>

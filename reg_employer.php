@@ -68,7 +68,7 @@
 	
           <div class="input-group">
             <label><strong>Location:</strong></label><br>
-            <input type="text" placeholder="Enter Company Location" id="lname" name="lname" required /><br>
+            <input type="text" placeholder="Enter Company Location" id="location" name="location" required /><br>
           </div>
           <div class="input-group">
             <label><strong>Email Id:</strong></label><br>
