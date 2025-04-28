@@ -5,10 +5,12 @@
 				else { ?>
 						<script type="text/javascript">
 							alert("Plz first login as Employer!");
+							
 							<?php 
 								session_unset();
 								session_destroy();
 							?>
+			
 							window.location.href = "../login.html";
 						</script>
 				<?php }
@@ -121,13 +123,9 @@
 				</select>
 			  </div>
 			  <div class="input-group">
-					<p><strong><label for="skills">Required Skills (TXT, DOCX): </label></strong></p>
+					<p><strong><label for="skills">Responsibilities & Requirements(TXT, DOCX): </label></strong></p>
 					<input type="file" name="skills" id="skills" accept=".txt,.docx" required />
-			  </div>          
-			  <div class="input-group">
-					<p><strong><label for="Experience">Required Experience (TXT, DOCX): </label></strong></p>
-					<input type="file" name="Experience" id="Experience" accept=".txt,.docx" required />
-			  </div>
+			  </div>     
 		
 			  <button type="submit" class="vvv">Post</button>
        

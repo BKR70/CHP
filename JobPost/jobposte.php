@@ -9,12 +9,9 @@
 	  die("Connection failed: " . $conn->connect_error);
 	}
 				
-	$fileName = rand(1,10000)."-".$_FILES['skills']['name'];
+	$fileName = $_FILES['skills']['name'];
 	$tempName = $_FILES['skills']['tmp_name'];
 	move_uploaded_file($tempName, "upload/".$fileName);
-	$fileNamet = rand(1,10000)."-".$_FILES['Experience']['name'];
-	$tempNamet = $_FILES['Experience']['tmp_name'];
-	move_uploaded_file($tempNamet, "Exp/".$fileNamet);
 	
 	$JobTitle = $_POST['jobtitle'];
 	$Company = $_POST['company'];
@@ -23,8 +20,8 @@
 	$OLocation = $_POST['olocation'];
 	$Location = $_POST['location'];
 	$JobType = $_POST['jobtype'];
-	$sql = "INSERT INTO posttable (title, company, category, wtype, officelocation, location, jtype, skills, exp)
-	VALUES ('$JobTitle', '$Company', '$Category', '$WorkPlace', '$OLocation','$Location','$JobType', '$fileName','$fileNamet')";
+	$sql = "INSERT INTO posttable (title, company, category, wtype, officelocation, location, jtype, file_name)
+	VALUES ('$JobTitle', '$Company', '$Category', '$WorkPlace', '$OLocation','$Location','$JobType', '$fileName')";
 
 
 	if ($conn->query($sql) === TRUE) {
