@@ -24,4 +24,4 @@ Career Hub Platform is a social networking website for professionals to connect 
    - Interactive profiles to showcase or evaluate skills before job application or hiring.
 
 ## Screenshots
-<img src="ReadMeImage/Home.PNG" alt="Career Hub Banner" width="600"/>
+<img src="ReadMeImage/Home.PNG" alt="Career Hub" width="500"/> <img src="ReadMeImage/employees.PNG" alt="Employees" width="500"/>
