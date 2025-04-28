@@ -51,23 +51,23 @@
             </div>
             <div class="form-group">
                 <label for="email"><strong>Your Email:</strong></label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" name="email" value=<?php echo $_SESSION['userEmail'] ?> required>
             </div>
 			<div class="form-group">
                 <label for="jobid"><strong>Job ID:</strong></label>
-                <input type="number" id="jobid" name="jobid" value=<?php echo $_SESSION['JOBID'] ?> min="1" max="10000" required>
+                <input type="number" id="jobid" name="jobid" value=<?php echo $_SESSION['JOBID'] ?> min="1" max="10000" readonly required>
             </div>
 			<div class="form-group">
-                <label for="country"><strong>Your Country:</strong></label>
-                <input type="text" id="country" name="country" required>
+                <label for="country"><strong>Your Location:</strong></label>
+                <input type="text" id="country" name="country" value=<?php echo $_SESSION['userCountry'] ?> readonly required>
             </div>
 			<div class="form-group">
                 <label for="company"><strong>Company:</strong></label>
-                <input type="text" id="company" name="company" value=<?php echo $_SESSION['CompanyName']?> required>
+                <input type="text" id="company" name="company" value=<?php echo $_SESSION['CompanyName']?> readonly required>
             </div>
             <div class="form-group">
-                <label for="resume"><strong>Upload Resume/Cv (PDF, DOCX):</strong></label><br>
-                <input type="file" id="resume" name="resume" accept=".pdf,.docx" required>
+                <label for="resume"><strong>Upload Resume (PDF):</strong></label><br>
+                <input type="file" id="resume" name="resume" accept=".pdf" required>
             </div>
             <button type="submit">Submit Application</button>
         </form>

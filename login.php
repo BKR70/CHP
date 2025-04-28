@@ -19,6 +19,8 @@
 					if($Usertype == "Employee") {
 						$_SESSION['Categore'] = $data['category'];
 						$_SESSION['uname'] = $data['firstName'];
+						$_SESSION['userEmail'] = $data['email'];
+						$_SESSION['userCountry'] = $data['location'];
 						?>
 						<script type="text/javascript">
 							alert("Successfully Employee LogIn");
