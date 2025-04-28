@@ -65,23 +65,7 @@
 			  </div>
 			  <div class="input-group">
 				<label for="company"><strong>Company:<strong></label><br>
-				<select name="company" id="company" style="width:50%; height:40px;">
-				  <option value="Google">Google</option>
-				  <option value="Priyo">Priyo</option>
-				  <option value="Optimizely">Optimizely</option>
-				  <option value="BrainStation23">BrainStation23</option>
-				  <option value="Enosis">Enosis</option>
-				  <option value="Apple">Apple</option>
-				  <option value="Amazon">Amazon</option>
-				  <option value="TigerIT">TigerIT</option>
-				  <option value="Facebook">Facebook</option>
-				  <option value="Twitter">Twitter</option>
-				  <option value="Microsoft">Microsoft</option>
-				  <option value="Agoda">Agoda</option>
-				  <option value="Oracle">Oracle</option>
-				  <option value="Netflix">Netflix</option>
-				  <option value="Alibaba">Alibaba</option>
-				</select>
+				<input type="text" id="company" name="company" value = "<?php echo $_SESSION['techGiantname']; ?>" readonly  required><br>
 			  </div>
 			  <div class="input-group">
 				<label for="category"><strong>Category:<strong></label><br>

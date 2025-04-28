@@ -1,4 +1,5 @@
 <?php 
+	session_start();
 	$servername = "localhost";
 	$username = "root";
 	$password = "";
@@ -43,6 +44,7 @@
 		VALUES ('$firstName', '$Location', '$EmailId', '$PasswordId','$RepasswordId', 'Employer' )";
 
 		if ($conn->query($sql) === TRUE) {
+			$_SESSION['uname'] = $data['firstName'];
 			?>
 			<script type="text/javascript">
 			alert("Employer Register Successful!");

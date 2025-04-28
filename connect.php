@@ -45,7 +45,7 @@
 		VALUES ('$firstName', '$lastName', '$EmailId', '$Category', '$PasswordId','$RepasswordId', 'Employee', '$Location')";
 
 		if ($conn->query($sql) === TRUE) {
-			$_SESSION['Categore'] = $Category;
+			//$_SESSION['Categore'] = $Category;
 			?>
 			<script type="text/javascript">
 			alert("Employee Register Successful!");
