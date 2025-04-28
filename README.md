@@ -3,7 +3,8 @@ Career Hub Platform is a social networking website for professionals to connect 
 
 ## Features
 ### 👨‍💼 Employees (Job Seekers)
-- Register and create an account with professional skills and experience.
+-
+    - Register and create an account with professional skills and experience.
     - Build a detailed employee profile showcasing skills, portfolio, and experience.
     - View available job listings that match registered skills.
     - Apply directly to relevant job posts.
