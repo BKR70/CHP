@@ -9,7 +9,7 @@
 	  die("Connection failed: " . $conn->connect_error);
 	}
 	
-	$fileName = rand(1,10000)."-".$_FILES['objection']['name'];
+	$fileName = $_FILES['objection']['name'];
 	$tempName = $_FILES['objection']['tmp_name'];
 	move_uploaded_file($tempName, "ContactUsFiles/".$fileName);
 	
@@ -20,7 +20,7 @@
 	VALUES ('$Name', '$Email', '$Message','$fileName')";
 
 
-	if ($conn->query($sql) === TRUE) {
+	if ($conn->query($sql) == TRUE) {
 		?>
 		<script type="text/javascript">
 							alert("Ok Done!");
