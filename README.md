@@ -16,3 +16,9 @@ Career Hub Platform is a social networking website for professionals to connect 
    - Post new job circulars targeted towards skilled employees.
    - Review detailed employee profiles before proceeding with hiring decisions.
    - Hire employees directly through the platform based on skills and experience.
+     
+### ✨ Common Platform Features
+   - Secure login and account management for both employees and employers.
+   - Skill-based job matching system for higher accuracy.
+   - Company-specific employee search and job discovery.
+   - Interactive profiles to showcase or evaluate skills before job application or hiring.
