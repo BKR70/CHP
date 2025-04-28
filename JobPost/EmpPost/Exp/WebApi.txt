@@ -1,0 +1,88 @@
+Guideline:
+# Best URL Naming practices:
+01. end point name descriptive hote hobe
+02. jokhon collection thakbe tokhon plurals use korbo
+03. plurals/{singular noun}
+04. use hypens for multiple words for improving the readability
+05. use versioning
+06. avoid verbs in url path
+
+From 00: 
+In .net sdk there exist some predefined library, ex:
+	wep api => asp.net core, asp.net core mvc
+	mobile =>  .net android, 
+	web client => Blazor
+
+From 01:
+For help => dotnet --help
+For create project => dotnet new webapi
+For run => dotnet run
+.gitignore explained
+for show bin and obj folder => dotnet build
+csproj => third party config file included here
+
+From 02:
+Request make, basic controller
+
+From 03:
+Api testing tools => Postman, Thunder client, Rest Client
+  
+From 04:
+Types of Api response
+
+From 05:
+Perform static CRUD Operation
+
+From 06:
+Perform dynamic CRUD operation
+Model binding: Passing data to methods via route, query string and request body
+
+From 07:
+Route constraints to validate route
+
+From 08: 
+Basic input validation
+
+From 09:
+Basic MVC Archt..
+
+From 10:
+Models vs DTOs
+
+From 11:
+Data annotation and validation locally & globally
+
+From 12:
+Centralized API Response and refactoring
+
+From 13:
+Get a category by id.
+
+From 14:
+Master service and dependency injection
+
+From 15:
+Repository pattern. 
+depend on upper abstract level of interface not fully depend on class level
+
+From 16:
+AutoMapper
+first run -> dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection
+
+From 16.1:
+EFCore : dotnet add package Microsoft.EntityFrameworkCore
+         dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL
+         dotnet add package Microsoft.EntityFrameworkCore.Design
+         dotnet add package Microsoft.EntityFrameworkCore.Tools
+	 dotnet tool install --global dotnet-ef
+Database context
+For setup migrations -> dotnet ef migrations add InitialCreate
+		        dotnet ef database update
+First click right button on tables then query =>CREATE EXTENSION IF NOT EXISTS "uuid-ossp"
+
+From 17:
+Asynchronous programming and CRUD Operations
+From 17.1:
+pagination feature 
+From 17.2:
+searching technique

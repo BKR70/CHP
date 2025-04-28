@@ -77,7 +77,7 @@
 				 </div>
 				<div style="float:left; width:50%">
 					<p><strong>Birthday :</strong></p>
-					<input type="text" id="Birthday" name="Birthday" value="mm/dd/year" required><br>
+					<input type="date" id="Birthday" name="Birthday" required><br>
 				</div>
 			</div>
 			<div class="input-group">
@@ -122,21 +122,21 @@
 			</div>			
 			<div class="input-group">
 				  <div style="float:left; width:50%">
-					<p><strong>Add Your Bio File:</strong></p>
+					<p><strong>Add Your Bio File: (.txt)</strong></p>
 					<input type="file" id="bio" name="bio" accept=".txt" required /><br>
 				  </div>
 				  <div style="float:left; width:50%">
-					<p><strong>Add Your Skills File:</strong></p>
+					<p><strong>Add Your Skills File: (.txt)</strong></p>
 					<input type="file" id="skills" name="skills" accept=".txt" required /><br>
 				  </div>
 			</div>			
 			<div class="input-group">
 				  <div style="float:left; width:50%">
-					<p><strong>Add Your Experience File:</strong></p>
+					<p><strong>Add Your Experience File: (.txt)</strong></p>
 					<input type="file" id="experience" name="experience" accept=".txt" required /><br>
 				  </div>
 				  <div style="float:left; width:50%">
-					<p><strong>Add Your Profile Pic:</strong></p>
+					<p><strong>Add Your Profile Pic: (.jpeg,.png,.jpg)</strong></p>
 					<input type="file" id="image" name="image" accept=".jpeg,.png,.jpg" required /><br>
 				  </div>
 			</div>

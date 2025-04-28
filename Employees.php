@@ -78,13 +78,6 @@
       <p><strong>Profession : SDE</strong></p>
       <a href="EmployeeList/Empeep.html">View Profile & Hire</a>
     </div>
-
-    <div class="employer">
-	  <img src="ProfPic/6.jpg" alt="empty">
-      <h2>Prachi Adhikari </h2>
-      <p><strong>Profession : App Dev.</strong></p>
-      <a href="EmployeeList/Empeep.html">View Profile & Hire</a>
-    </div>
      
 	  <div class="employer">
 	  <img src="ProfPic/7.jpg" alt="empty">
