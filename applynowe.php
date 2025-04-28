@@ -37,13 +37,13 @@
 		<?php
 	}
 	else {
-		$fileName = rand(1,10000)."-".$_FILES['resume']['name'];
+		$fileName = $_FILES['resume']['name'];
 		$tempName = $_FILES['resume']['tmp_name'];
-		move_uploaded_file($tempName, "CvList/".$fileName);
+		move_uploaded_file($tempName, "ResumeList/".$fileName);
 		
-		$sql = "INSERT INTO applynow (name,jobid,email,country,company,cv) VALUES ('$Name', '$JobId', '$Email','$Country','$Company','$fileName')";
+		$sql = "INSERT INTO applynow (name,jobid,email,country,company,Resume) VALUES ('$Name', '$JobId', '$Email','$Country','$Company','$fileName')";
 
-			if ($conn->query($sql) === TRUE) {
+			if ($conn->query($sql) == TRUE) {
 				?>
 				<script type="text/javascript">
 				alert("Job Apply Successfully Done!");

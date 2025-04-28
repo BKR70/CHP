@@ -9,7 +9,7 @@
 	if ($conn->connect_error) {
 	  die("Connection failed: " . $conn->connect_error);
 	}
-	$query = mysqli_query($conn, "select * from emp_post where id = 2");
+	$query = mysqli_query($conn, "select * from emp_post where id = 6");
 	$data = mysqli_fetch_assoc($query);
 ?>
 <!DOCTYPE html>
@@ -44,7 +44,7 @@
                     <div class="tab-content">
                         <div class="tab-pane fade active show" id="account-general">
                             <div class="card-body media align-items-center">
-                                <img src="../ProfPic/1.jpg" alt
+                                <img src="../ProfPic/5.jpg" alt
                                     class="d-block ui-w-80">
                             </div>
                             <hr class="border-light m-0">
@@ -154,9 +154,9 @@
             </div>
         </div>
         <div class="text-right mt-3">
-			<?php if(isset($_SESSION['one'])) { ?>
+			<?php if(isset($_SESSION['five'])) { ?>
 				<button type="button" ><a href="../Employees.php" onclick="fk()">Hire Me</a></button>
-			<?php } else if(isset($_SESSION['techGiantmail'])) { $_SESSION['one'] = "ok";
+			<?php } else if(isset($_SESSION['techGiantmail'])) { $_SESSION['five'] = "ok";
 					$_SESSION['Eed'] = $data['id'];
 					$_SESSION['Eemail'] = $data['email'];
 			?>

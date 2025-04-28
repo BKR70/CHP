@@ -9,7 +9,7 @@
 	if ($conn->connect_error) {
 	  die("Connection failed: " . $conn->connect_error);
 	}
-	$query = mysqli_query($conn, "select * from emp_post where eid = 6");
+	$query = mysqli_query($conn, "select * from emp_post where id = 7");
 	$data = mysqli_fetch_assoc($query);
 ?>
 <!DOCTYPE html>
@@ -44,7 +44,7 @@
                     <div class="tab-content">
                         <div class="tab-pane fade active show" id="account-general">
                             <div class="card-body media align-items-center">
-                                <img src="../ProfPic/2.jpg" alt
+                                <img src="../ProfPic/6.jpg" alt
                                     class="d-block ui-w-80">
                             </div>
                             <hr class="border-light m-0">
@@ -59,7 +59,7 @@
                                 </div>
 								<div class="form-group">
                                     <label class="form-label">Employee Id :</label>
-                                    <input type="text" class="form-control" value=<?php echo $data['eid'] ?> readonly="readonly">
+                                    <input type="text" class="form-control" value=<?php echo $data['id'] ?> readonly="readonly">
                                 </div>
 								<div class="form-group">
                                     <label class="form-label">Birthday : </label>
@@ -71,7 +71,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label class="form-label">Profession :</label>
-                                    <input type="text" class="form-control" value=<?php echo $data['profession'] ?> readonly="readonly">
+                                    <input type="text" class="form-control" value="<?php echo $data['profession'] ?>" readonly="readonly">
                                 </div>
 								<div class="form-group">
                                     <label class="form-label">Current Company :</label>
@@ -157,7 +157,7 @@
 			<?php if(isset($_SESSION['six'])) { ?>
 				<button type="button" ><a href="../Employees.php" onclick="fk()">Hire Me</a></button>
 			<?php } else if(isset($_SESSION['techGiantmail'])) { $_SESSION['six'] = "ok";
-					$_SESSION['Eed'] = $data['eid'];
+					$_SESSION['Eed'] = $data['id'];
 					$_SESSION['Eemail'] = $data['email'];
 			?>
 				<button type="button" ><a href="hireme.php">Hire Me</a></button>

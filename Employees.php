@@ -56,41 +56,41 @@
 	  <img src="ProfPic/2.jpg" alt="empty">
       <h2>Morsheda </h2>
       <p><strong>Profession : App Dev.</strong></p>
-      <a href="EmployeeList/E6.php">View Profile & Hire</a>
+      <a href="EmployeeList/E2.php">View Profile & Hire</a>
     </div>
      
 	  <div class="employer">
 	  <img src="ProfPic/3.jpg" alt="empty">
       <h2>Ayesha</h2>
       <p><strong>Profession : Game Dev.</strong></p>
-      <a href="EmployeeList/E7.php">View Profile & Hire</a>
+      <a href="EmployeeList/E3.php">View Profile & Hire</a>
     </div>
 	
 	 <div class="employer">
 	  <img src="ProfPic/4.jpg" alt="empty">
       <h2>Tourist.</h2>
       <p><strong>Profession : Programmer</strong></p>
-      <a href="EmployeeList/Empeep.html">View Profile & Hire</a>
+      <a href="EmployeeList/E4.php">View Profile & Hire</a>
     </div>    
 	<div class="employer">
 	  <img src="ProfPic/5.jpg" alt="empty">
       <h2>Chayan Roy</h2>
       <p><strong>Profession : SDE</strong></p>
-      <a href="EmployeeList/Empeep.html">View Profile & Hire</a>
+      <a href="EmployeeList/E5.php">View Profile & Hire</a>
     </div>
      
 	  <div class="employer">
 	  <img src="ProfPic/7.jpg" alt="empty">
       <h2>Mim </h2>
       <p><strong>Profession : Game Dev.</strong></p>
-      <a href="EmployeeList/Empeep.html">View Profile & Hire</a>
+      <a href="EmployeeList/E6.php">View Profile & Hire</a>
     </div>
 	
 	 <div class="employer">
 	  <img src="ProfPic/8.jpg" alt="empty">
       <h2>Adnan Toky.</h2>
       <p><strong>Profession : Programmer</strong></p>
-      <a href="EmployeeList/Empeep.html">View Profile & Hire</a>
+      <a href="EmployeeList/E7.php">View Profile & Hire</a>
     </div>
 
 

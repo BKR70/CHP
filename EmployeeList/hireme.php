@@ -47,15 +47,15 @@
     
           <div class="input-group">
             <label><strong>User Id:</strong></label>
-            <input type="number" id="id" name="id" value=<?php echo $_SESSION['Eed'] ?> required>
+            <input type="number" id="id" name="id" value=<?php echo $_SESSION['Eed'] ?> readonly required>
           </div>
 		  <div class="input-group">
             <label><strong>User Email:</strong></label>
-            <input type="email" id="email" name="email" value=<?php echo $_SESSION['Eemail']?> required>
+            <input type="email" id="email" name="email" value="<?php echo $_SESSION['Eemail']?>" readonly required>
           </div>
           <div class="input-group">
             <label><strong>Company Email:</strong></label>
-            <input type="email" id="cemail" name="cemail" value=<?php echo $_SESSION['techGiantmail'] ?> required>
+            <input type="email" id="cemail" name="cemail" value="<?php echo $_SESSION['techGiantmail'] ?>" readonly required>
           </div>
 		  <div class="input-group">
 				<label for="appoint"><strong>Appoint as:<strong></label>
