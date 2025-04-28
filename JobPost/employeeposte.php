@@ -9,19 +9,19 @@
 	  die("Connection failed: " . $conn->connect_error);
 	}
 	
-	$bioName = rand(1,10000)."-".$_FILES['bio']['name'];
+	$bioName = $_FILES['bio']['name'];
 	$tempNameb = $_FILES['bio']['tmp_name'];
 	move_uploaded_file($tempNameb, "EmpPost/Bio/".$bioName);
 	
-	$sName = rand(1,10000)."-".$_FILES['skills']['name'];
+	$sName = $_FILES['skills']['name'];
 	$tempNames = $_FILES['skills']['tmp_name'];
 	move_uploaded_file($tempNames, "EmpPost/Skills/".$sName);	
 	
-	$eName = rand(1,10000)."-".$_FILES['experience']['name'];
+	$eName = $_FILES['experience']['name'];
 	$tempNamee = $_FILES['experience']['tmp_name'];
 	move_uploaded_file($tempNamee, "EmpPost/Exp/".$eName);	
 	
-	$iName = rand(1,10000)."-".$_FILES['image']['name'];
+	$iName = $_FILES['image']['name'];
 	$tempNamei = $_FILES['image']['tmp_name'];
 	move_uploaded_file($tempNamei, "EmpPost/Img/".$iName);
 	
