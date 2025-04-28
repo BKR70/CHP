@@ -9,7 +9,7 @@
 	if ($conn->connect_error) {
 	  die("Connection failed: " . $conn->connect_error);
 	} 
-	$query = "select JobId, title, company, wtype, officelocation, location, jtype from posttable where company = 'Amazon' ";
+	$query = "select JobId, title, company, wtype, officelocation, location, jtype from posttable where company = 'Microsoft' ";
 	$result = mysqli_query($conn,$query);
 ?>
 
@@ -55,7 +55,7 @@
 		</ul>
 	</div>
 	<div class="container" style="">
-        <h1 style="border-bottom:1px dotted black; padding-bottom:20px;"> Job at Amazon.</h1>
+        <h1 style="border-bottom:1px dotted black; padding-bottom:20px;"> Job at Microsoft.</h1>
         <div class="job-listings">
             <?php
 				while($row = mysqli_fetch_assoc($result)) {

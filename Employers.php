@@ -47,37 +47,39 @@
   <section class="employer-list">
     <div class="employer">
       <h2 style="color:#F0F8FF;">Apple</h2>
-      <p><strong>Envobyte is an IT Company that provides web and app development, digital marketing, graphics design and other services. Envobyte is an IT Company that provides web and app development, digital marketing, graphics design and other services.</strong></p>
+      <p><strong>Apple Inc., originally Apple Computer, Inc., is a multinational corporation that creates and markets consumer electronics and attendant computer software, and is a digital distributor of media content. Apple's core product lines are the iPhone smartphone, iPad tablet computer, and the Mac personal computer. </strong></p>
       <a href="CompanyWiseJobList/apple.php">View Jobs</a>
     </div>
 
     <div class="employer">
       <h2 style="color:#F0F8FF;">Amazon</h2>
-      <p><strong>The all-in-one system for marketing—purpose-built to help teams create & optimize personalized digital experiences, fast The all-in-one system for marketing—purpose-built to help teams create & optimize personalized digital experiences, fast</strong></p>
+      <p><strong>Amazon.com, Inc., doing business as Amazon, is a multinational technology company primarily known for its e-commerce platform. Beyond e-commerce, Amazon is also involved in cloud computing (Amazon Web Services), online advertising, digital streaming, and artificial intelligence. </strong></p>
       <a href="CompanyWiseJobList/amazon.php">View Jobs</a>
     </div>
      
 	<div class="employer">
       <h2 style="color:#F0F8FF;">Google</h2>
-      <p><strong>Google LLC (Google), a subsidiary of Alphabet Inc, is a provider of search and advertising services on the internet. The company's business areas include advertising, search, platforms and operating systems, and enterprise and hardware products.</strong></p>
+      <p><strong>Google is an American multinational technology company founded by Larry Page and Sergey Brin in 1998. It is a subsidiary of Alphabet Inc. and is known for its search engine, online advertising, cloud computing, and other products and services. It operates with a mission to organize the world's information and make it universally accessible and useful.  </strong></p>
       <a href="CompanyWiseJobList/google.php">View Jobs</a>
     </div>
 	    <div class="employer">
       <h2 style="color:#F0F8FF;">Brainstation 23</h2>
-      <p><strong>The all-in-one system for marketing—purpose-built to help teams create & optimize personalized digital experiences, fast The all-in-one system for marketing—purpose-built to help teams create & optimize personalized digital experiences, fast</strong></p>
+      <p><strong>Brain Station 23 is a software and IT solutions company based in Bangladesh, not a public limited company (PLC) as indicated in the title. Brain Station 23 is a company focused on digital transformation and IT services, offering solutions in areas like software development, cloud computing, and AI.</strong></p>
       <a href="CompanyWiseJobList/brainstation.php">View Jobs</a>
     </div>
 	    
 	<div class="employer">
       <h2 style="color:#F0F8FF;">Microsoft</h2>
-      <p><strong>The all-in-one system for marketing—purpose-built to help teams create & optimize personalized digital experiences, fast The all-in-one system for marketing—purpose-built to help teams create & optimize personalized digital experiences, fast</strong></p>
+      <p><strong>Microsoft Corporation is an American multinational corporation and technology conglomerate headquartered in Redmond, Washington. 
+		Founded in 1975, the company became influential in the rise of personal computers through software like Windows, and the company has since expanded to Internet services, cloud computing, video gaming and other fields.</strong></p>
       <a href="CompanyWiseJobList/microsoft.php">View Jobs</a>
     </div>
 	     
 	<div class="employer">
-      <h2 style="color:#F0F8FF;">Tesla</h2>
-      <p><strong>The all-in-one system for marketing—purpose-built to help teams create & optimize personalized digital experiences, fast The all-in-one system for marketing—purpose-built to help teams create & optimize personalized digital experiences, fast</strong></p>
-      <a href="CompanyWiseJobList/tesla.php">View Jobs</a>
+      <h2 style="color:#F0F8FF;">Optimizely</h2>
+      <p><strong>Optimizely is an American company that provides digital experience platform software as a service. Optimizely provides A/B testing and multivariate testing tools, website personalization, and feature toggle capabilities, as well as web content management and digital commerce.
+		The company was acquired by Episerver in October 2021.</strong></p>
+      <a href="CompanyWiseJobList/optimizely.php">View Jobs</a>
     </div>
 
   </section>

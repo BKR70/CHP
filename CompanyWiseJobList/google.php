@@ -55,7 +55,7 @@
 		</ul>
 	</div>
 	<div class="container" style="">
-        <h1 style="border-bottom:1px dotted black; padding-bottom:20px;"> Job at Apple.</h1>
+        <h1 style="border-bottom:1px dotted black; padding-bottom:20px;"> Job at Google.</h1>
         <div class="job-listings">
             <?php
 				while($row = mysqli_fetch_assoc($result)) {

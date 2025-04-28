@@ -1,5 +1,4 @@
 <?php 
-	session_start();
 	$servername = "localhost";
 	$username = "root";
 	$password = "";
@@ -9,7 +8,7 @@
 	if ($conn->connect_error) {
 	  die("Connection failed: " . $conn->connect_error);
 	} 
-	$query = "select JobId, title, company, wtype, officelocation, location, jtype from posttable where company = 'Amazon' ";
+	$query = "select JobId, title, company, wtype, officelocation, location, jtype from posttable where company = 'Optimizely' ";
 	$result = mysqli_query($conn,$query);
 ?>
 
@@ -24,38 +23,30 @@
 <body>
     <div class="nav">
 		<ul>
-		  <li><a href="../Index.php">Home</a></li>
-		  <li><a href="../joblist.php">Job List</a></li>
-		  <li><a href="../Employers.php">Employers</a></li>
-		  <li><a href="../Employees.php">Employees</a></li>
+		  <li><a href="#home">Home</a></li>
+		  <li><a href="../joblist.html">Job List</a></li>
+		  <li><a href="../Employers.html">Employers</a></li>
+		  <li><a href="../Employees.html">Employees</a></li>
 		  <li class="dropdown">
 			<a href="javascript:void(0)" class="dropbtn">J/E Post</a>
 			<div class="dropdown-content">
-			  <a href="../JobPost/jobpost.php">Job Post</a>
-			  <a href="../JobPost/jobpost.php">Employee Post</a>
+			  <a href="">Job Post</a>
+			  <a href="">Employee Post</a>
 			</div>
 		  </li>
-		  <li><a href="../Contactus.php">Contact us</a></li>
-		  <?php if(isset($_SESSION['uname'])) { ?>
-			<li style="float:right"><a class="active" href="../logout.php"> Log Out</a></li>
-			<li style="float:right"><a href="../jobtable.php"> <?php echo $_SESSION['uname'];?></a></li>
-		  <?php } 
-				else {
-		    ?>
-			  <li style="float:right"><a class="active" href="../login.html">Log In</a></li>
-			  <li class="dropdown" style="float:right">
-				<a href="javascript:void(0)" class="dropbtn">Register</a>
-				<div class="dropdown-content">
-				  <a href="../reg_employee.php">Register as Employee</a>
-				  <a href="../reg_employer.php">Register as Employer</a>
-				</div>
-			  </li>
-		  <?php } 
-		  ?>
+		  <li><a href="../Contactus.html">Contact us</a></li>
+		  <li style="float:right"><a class="active" href="#">Log In</a></li>
+		  <li class="dropdown" style="float:right">
+			<a href="javascript:void(0)" class="dropbtn">Register</a>
+			<div class="dropdown-content">
+			  <a href="reg_employee.html">Register as Employee</a>
+			  <a href="reg_employer.html">Register as Employer</a>
+			</div>
+		  </li>
 		</ul>
 	</div>
 	<div class="container" style="">
-        <h1 style="border-bottom:1px dotted black; padding-bottom:20px;"> Job at Amazon.</h1>
+        <h1 style="border-bottom:1px dotted black; padding-bottom:20px;"> Job at Optimizely.</h1>
         <div class="job-listings">
             <?php
 				while($row = mysqli_fetch_assoc($result)) {
@@ -68,23 +59,14 @@
                 <p>Emp Location : <?php echo $row['location']; ?></p>
                 <p><?php echo $row['wtype']; ?>. <?php echo $row['jtype']; ?></p>
                 <p><strong>Skills: Web Development, Cascading Style Sheets (CSS), API Development, Database Design, Git, HTML, Laravel, MySQL, Node.js, PHP</strong></p>
-                <?php if(isset($_SESSION['Categore'])) { $_SESSION['CompanyName'] = $row['company'];?>
-					
-					<a href="../APPlyNow.php">Apply Now</a>
-				<?php } else {?>
-					<a href="../login.html" onclick="chk()">Apply Now</a>
-				<?php } ?>
+                <a href="../APPlyNow.html">Apply Now</a>
 			</div> 
 			<?php 
 				}
 			?>
         </div>
     </div>
-	<script>
-		function chk() {
-			alert("Plz. LogIn First!");
-		}
-	</script>
+
 	<footer>
 		<div class="row primary">
 		  <div class="column about">

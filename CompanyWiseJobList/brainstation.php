@@ -8,7 +8,7 @@
 	if ($conn->connect_error) {
 	  die("Connection failed: " . $conn->connect_error);
 	} 
-	$query = "select JobId, title, company, wtype, officelocation, location, jtype from posttable where company = 'Brainstation 23' ";
+	$query = "select JobId, title, company, wtype, officelocation, location, jtype from posttable where company = 'Brainstation23' ";
 	$result = mysqli_query($conn,$query);
 ?>
 
