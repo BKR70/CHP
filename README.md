@@ -36,8 +36,8 @@ Career Hub Platform is a social networking website for professionals to connect 
  4. Run the application using a local server (e.g. XAMPP)
 
 ## 🛠️ Technologies Used
-   - 🐘 PHP
-   - 🐬 MySQL
-   - 🌐 HTML5, CSS3, JavaScript
-   - 🎨 Bootstrap
+   - PHP
+   - MySQL
+   - HTML5, CSS3, JavaScript
+   - Bootstrap
      
