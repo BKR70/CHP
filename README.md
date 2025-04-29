@@ -1,7 +1,7 @@
 # Career Hub Platform 🚀
 Career Hub Platform is a social networking website for professionals to connect with each other, find jobs, and stay up-to-date on industry news. Anyone can search for job related to his/her profession and anyone can hire expert employee for his work
 
-## Features
+## 📌 Features
 ### 👨‍💼 Employees (Job Seekers)
    - Register and create an account with professional skills and experience.
    - Build a detailed employee profile showcasing skills, portfolio, and experience.
@@ -23,21 +23,21 @@ Career Hub Platform is a social networking website for professionals to connect 
    - Company-specific employee search and job discovery.
    - Interactive profiles to showcase or evaluate skills before job application or hiring.
 
-## Screenshots
+## 🖼️ Screenshots
 #### Some screenshots of my project are shown below.
 <img src="ReadMeImage/Home.PNG" alt="Career Hub" width="400"/> <img src="ReadMeImage/employees.PNG" alt="Employees" width="400"/>
 <img src="ReadMeImage/joblist.png" alt="Joblist" width="400"/> <img src="ReadMeImage/employers.PNG" alt="Employers" width="400"/>
 
-## Installation
+## ⚙️ Installation
 #### How to set up the project locally: 
  1. Clone the repository.
  2. Create a MySQL database and import the provided SQL file located in db folder.
  3. Configure the database connection in the PHP files.
  4. Run the application using a local server (e.g. XAMPP)
 
-## Technologies Used
-   - PHP
-   - MySQL
-   - HTML5, CSS3, JavaScript
-   - Bootstrap
+## 🛠️ Technologies Used
+   - 🐘 PHP
+   - 🐬 MySQL
+   - 🌐 HTML5, CSS3, JavaScript
+   - 🎨 Bootstrap
      
